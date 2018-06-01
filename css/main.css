@@ -1,0 +1,140 @@
+/* Base Tags Styles */
+::selection {
+  background: #AEDAFF; }
+
+body, html {
+  background: white;
+  color: black;
+  margin: 0;
+  padding: 0;
+  line-height: 26px;
+  font-weight: normal;
+  font-family: arial, helvetica, sans-serif;
+  min-width: 1322px;
+  height: 100%;
+  display: grid; }
+
+a {
+  text-decoration: none;
+  color: #007bff !important; }
+
+a:hover {
+  text-decoration: underline; }
+
+/* Site Style Begin */
+#topBar {
+  position: relative;
+  width: 1062px;
+  height: 128px;
+  margin: 0 auto; }
+
+.logo {
+  display: block;
+  position: absolute;
+  width: 303px;
+  height: 90px;
+  background-image: url("/logo.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 303px 90px;
+  top: 19px;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  text-indent: -9999px; }
+
+.logo a {
+  display: block;
+  width: 100%;
+  height: 90px; }
+
+ul.topNavigation {
+  display: block;
+  position: absolute;
+  top: 68px;
+  left: 325px;
+  width: 511px;
+  height: 24px;
+  margin: 0;
+  padding: 0; }
+
+ul.topNavigation li {
+  width: 36px;
+  margin: 0 18px 0 0;
+  background-position: 0 0;
+  display: inline; }
+
+ul.topNavigation li a {
+  display: display;
+  width: 100%;
+  height: 24px;
+  color: black !important;
+  text-transform: uppercase; }
+
+ul.topNavigation li a:hover {
+  text-decoration: none;
+  border-bottom: 1px solid red; }
+
+div#bx-wrapper {
+  width: 100%;
+  height: 400px;
+  background: #2d2d2d;
+  color: white; }
+
+div#bx-wrapper .bx {
+  width: 1032px;
+  margin: 0 auto; }
+
+.bx img {
+  float: left;
+  margin-top: 2em; }
+
+.bx .bx-text {
+  float: right;
+  width: 29em;
+  margin: 6em 8em 0 8em; }
+
+div#aboutSection {
+  background: #eee;
+  padding: 0 5em 0 5em; }
+
+div#aboutSection img {
+  width: 50%;
+  height: auto;
+  position: relative;
+  top: -5em; }
+
+div#aboutSection h2 {
+  font-size: 2.5em;
+  padding: 0;
+  margin: 1em 0 45px;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: normal; }
+
+div#aboutSection .text {
+  float: left;
+  position: relative;
+  width: 36em; }
+
+div#aboutSection p {
+  padding: 0;
+  margin: 0 0 45px;
+  line-height: 2; }
+
+/* Footer Styles */
+footer#footer {
+  width: 100%;
+  max-width: 1322px;
+  margin: 0 auto;
+  text-align: center; }
+
+footer#footer ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; }
+
+footer#footer ul li {
+  display: inline-block; }
+
+/*# sourceMappingURL=main.css.map */
