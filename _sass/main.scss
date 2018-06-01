@@ -115,12 +115,10 @@ div#bx-wrapper .bx {
     margin: 6em 8em 0 8em;
 }
 
-
-
 div#aboutSection {
-    // height: 500px;
-    background: #eee;
-    padding: 0 5em 0 5em;
+  background: #eee;
+  /* padding: 0 5em 0 5em; */
+  width: 100%;
 }
 
 div#aboutSection img {
@@ -142,13 +140,19 @@ div#aboutSection h2 {
 div#aboutSection .text {
     float: left;
     position: relative;
-    width: 36em;
+    width: 32em;
 }
 
 div#aboutSection p {
   padding: 0;
   margin: 0 0 45px;
   line-height: 2;
+}
+
+.aboutInner {
+    width: 100%;
+    max-width: 1032px;
+    margin: 0 auto;
 }
 
 

@@ -96,7 +96,8 @@ div#bx-wrapper .bx {
 
 div#aboutSection {
   background: #eee;
-  padding: 0 5em 0 5em; }
+  /* padding: 0 5em 0 5em; */
+  width: 100%; }
 
 div#aboutSection img {
   width: 50%;
@@ -115,12 +116,17 @@ div#aboutSection h2 {
 div#aboutSection .text {
   float: left;
   position: relative;
-  width: 36em; }
+  width: 32em; }
 
 div#aboutSection p {
   padding: 0;
   margin: 0 0 45px;
   line-height: 2; }
+
+.aboutInner {
+  width: 100%;
+  max-width: 1032px;
+  margin: 0 auto; }
 
 /* Footer Styles */
 footer#footer {
